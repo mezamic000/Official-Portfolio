@@ -1,3 +1,20 @@
+.robo-sign {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+}
+
+.robot-with-sign {
+	width: auto;
+	height: 980px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 #intro-line {
 	color: rgb(91, 91, 96);
 	text-shadow: 1px 1px 2px #000, 1px 1px 0 black;
@@ -12,17 +29,20 @@
 	background-color: rgb(39, 165, 203);
 	border: 2px solid rgb(91, 91, 96);
 	color: rgb(91, 91, 96);
-	padding: 5px 10px;
+	padding: 10px 10px;
 	text-align: center;
 	font-weight: 800;
 	display: inlin7-block;
-	font-size: 16px;
+	font-size: 20px;
 	border-radius: 2px;
-	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 6px 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	text-shadow: 1px 1px 2px #000, 1px 1px 0 black;
+	letter-spacing: 1px;
+	margin-left: 100px;
 }
 
 #enter-btn:hover {
 	background-color: rgb(91, 91, 96);
 	color: white;
+	border: 2px solid white;
 }
