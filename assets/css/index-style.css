@@ -1,0 +1,44 @@
+body {
+	background-image: url(/assets/images/pawel-czerwinski-dgJT71cXlC4-unsplash.jpg);
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar {
+	background-color: #a78432;
+}
+
+.navbar-brand {
+	color: rgb(230, 191, 195);
+	font-weight: 800;
+	font-size: x-large;
+	text-shadow: 3px 3px 3px #bd727a, 3px 3px 3px black;
+}
+
+#navbarNav {
+	text-shadow: 3px 3px 3px #bd727a, 3px 3px 3px black;
+	font-size: 18px;
+}
+
+#toggle {
+	background-color: rgb(230, 191, 195);
+}
+
+.container {
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.card {
+	color: #bd727a;
+	background-color: rgb(236, 190, 195);
+	text-align: center;
+	border: 8px dotted #a78432;
+	text-shadow: 2px 2px 2px #000, 2px 2px 0 black;
+	font-size: 25px;
+}
+
+#name {
+	color: #a78432;
+}

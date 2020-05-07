@@ -6,7 +6,7 @@
 }
 
 #robot-with-sign {
-	width: auto;
+	width: 980px;
 	height: 980px;
 	position: absolute;
 	top: 50%;
@@ -16,9 +16,8 @@
 
 #intro-line {
 	color: rgb(91, 91, 96);
-	text-shadow: 1px 1px 2px #000, 1px 1px 0 black;
+	text-shadow: 2px 2px 2px #000, 2px 2px 0 black;
 	font-size: 50px;
-	/* text-shadow: 4px 4px rgba(0, 0, 0, 0.2); */
 }
 
 #name {
