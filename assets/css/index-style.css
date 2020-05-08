@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap"); */
+
 body {
 	background-image: url(/assets/images/pawel-czerwinski-dgJT71cXlC4-unsplash.jpg);
 	/* background-repeat: no-repeat; */
@@ -41,4 +43,44 @@ body {
 
 #name {
 	color: #a78432;
+}
+
+.container2 {
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+form {
+	background-color: rgb(189, 114, 122);
+	border: 5px solid #a78432;
+	padding: 10px;
+	color: rgb(236, 190, 195);
+	border-radius: 5px;
+	text-shadow: 3px 3px 3px #a78432, 3px 3px 3px black;
+	box-shadow: 6px 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+	background-color: #a78432;
+	border: 2px solid rgb(236, 190, 195);
+	color: rgb(236, 190, 195);
+	padding: 2px 3px;
+	text-align: center;
+	font-weight: 800;
+	display: inline-block;
+	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.9), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	text-shadow: 1px 1px 2px #000, 1px 1px 0 black;
+	letter-spacing: 1px;
+}
+
+.btn:hover {
+	background-color: rgb(236, 190, 195);
+	color: #a78432;
+	font-weight: 900;
+}
+
+hr {
+	border: 4px solid #a78432;
 }
