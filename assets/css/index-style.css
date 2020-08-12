@@ -1,86 +1,137 @@
 /* @import url("https://fonts.googleapis.com/css?family=Emilys+Candy&display=swap"); */
-
 body {
-	background-image: url(/assets/images/pawel-czerwinski-dgJT71cXlC4-unsplash.jpg);
-	/* background-repeat: no-repeat; */
-	background-size: cover;
-	background-position: center;
+  /* background-image: url(/assets/images/pawel-czerwinski-dgJT71cXlC4-unsplash.jpg);
+  background-size: cover;
+  background-position: center; */
+  background-color: #bd727a;
+}
+
+#top-image {
+  position: absolute;
+  top: 62px;
+  left: 0;
+}
+
+#picture {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 100vh;
+  border-right: 8px solid rgb(230, 191, 195);
 }
 
 .navbar {
-	background-color: #a78432;
+  background-color: #b48821;
+  background-image: linear-gradient(180deg, #a78432, #d2b35a);
+  z-index: 1;
+  /* border: 4px solid rgb(230, 191, 195); */
 }
 
 .navbar-brand {
-	color: rgb(230, 191, 195);
-	font-weight: 800;
-	font-size: x-large;
-	text-shadow: 3px 3px 3px #bd727a, 3px 3px 3px black;
+  color: rgb(230, 191, 195);
+  font-weight: 800;
+  font-size: x-large;
+  text-shadow: 3px 3px 3px #bd727a, 3px 3px 3px black;
 }
 
 #navbarNav {
-	text-shadow: 3px 3px 3px #bd727a, 3px 3px 3px black;
-	font-size: 18px;
+  text-shadow: 3px 3px 3px #bd727a, 3px 3px 3px black;
+  font-size: 18px;
 }
 
 #toggle {
-	background-color: rgb(230, 191, 195);
+  background-color: rgb(230, 191, 195);
+  border-radius: 5px;
 }
-
+/* 
 .container {
-	padding: 20px;
-	margin-top: 20px;
-}
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
 
 .card {
-	color: #bd727a;
-	background-color: rgb(236, 190, 195);
-	text-align: center;
-	border: 8px dotted #a78432;
-	text-shadow: 2px 2px 2px #000, 2px 2px 0 black;
-	font-size: 25px;
+  background-color: #e6bfc3;
+  color: #bd727a;
+  font-weight: 500;
+  font-size: 20px;
 }
 
+.appCard {
+  margin: 5px 5px;
+  background-color: black;
+  font-size: 16px;
+  border: 2px solid #a78432;
+}
+
+#alienImg {
+  border: 1px dashed #4a26ff;
+}
+
+#setflowImg, #bamazonImg {
+  border: 1px solid #a78432;
+}
+
+.card-img-top {
+  margin-top: 10px;
+}
+
+/* 
+.card {
+  grid-column: 1/2;
+  color: #bd727a;
+  background-color: rgba(236, 190, 195, 0);
+  text-align: center;
+  border: 8px dotted #a78432;
+  text-shadow: 2px 2px 2px #000, 2px 2px 0 black;
+  font-size: 25px;
+} */
+
 #name {
-	color: #a78432;
+  grid-column: 3/4;
+  color: #a78432;
 }
 
 .container2 {
-	margin-left: 40px;
-	margin-top: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 
 form {
-	background-color: rgb(189, 114, 122);
-	border: 5px solid #a78432;
-	padding: 10px;
-	color: rgb(236, 190, 195);
-	border-radius: 5px;
-	text-shadow: 3px 3px 3px #a78432, 3px 3px 3px black;
-	box-shadow: 6px 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(189, 114, 122);
+  border: 5px solid #a78432;
+  padding: 10px;
+  color: rgb(236, 190, 195);
+  border-radius: 5px;
+  text-shadow: 3px 3px 3px #a78432, 3px 3px 3px black;
+  box-shadow: 6px 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn {
-	background-color: #a78432;
-	border: 2px solid rgb(236, 190, 195);
-	color: rgb(236, 190, 195);
-	padding: 2px 3px;
-	text-align: center;
-	font-weight: 800;
-	display: inline-block;
-	font-size: 18px;
-	border-radius: 5px;
-	box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.9), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-	text-shadow: 1px 1px 2px #000, 1px 1px 0 black;
-	letter-spacing: 1px;
+  background-color: #a78432;
+  border: 2px solid rgb(236, 190, 195);
+  color: rgb(236, 190, 195);
+  padding: 2px 3px;
+  text-align: center;
+  font-weight: 800;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.9),
+    0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 1px 1px 2px #000, 1px 1px 0 black;
+  letter-spacing: 1px;
 }
 
 .btn:hover {
-	background-color: rgb(236, 190, 195);
-	color: #a78432;
-	font-weight: 900;
+  background-color: rgb(236, 190, 195);
+  color: #a78432;
+  font-weight: 900;
 }
 
 hr {
-	border: 4px solid #a78432;
+  border: 2px dashed #a78432;
+}
+
+.portfolioHeader {
+  color: rgb(236, 190, 195);
 }
