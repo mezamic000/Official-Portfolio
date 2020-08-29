@@ -1,122 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap"
+      rel="stylesheet"
     />
-
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
-      href="https://unpkg.com/purecss@1.0.1/build/pure-min.css"
-      integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47"
-      crossorigin="anonymous"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnm"
     />
-    <link rel="stylesheet" href="assets/css/index-style.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
     <title>Michelle Meza</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-        <img
-          src="assets/images/cute-alien.png"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt=""
-        />
-        Michelle Meza</a
-      >
-      <button
-        class="navbar-toggler navbar-dark"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon" id="toggle"></span>
-      </button>
-      <div class="collapse navbar-collapse navbar-dark" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >About<span class="sr-only">(current)</span></a
-            >
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <li>
+            <a href="#about" class="nav-link">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Me</a>
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
-      </div>
-    </nav>
-    <!-- body content starts here -->
-    <div class="card mb-3">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img
-            src="assets/images/ella-jardim-iqf-qO711ys-unsplash.jpg"
-            class="card-img"
-            alt="..."
-          />
+      </nav>
+    </header>
+
+    <div class="landing" id="landing">
+      <div class="container">
+        <div class="landing-text">
+          <h1><span>Michelle</span></h1>
+          <h1><span>Meza</span></h1>
+          <h6>Junior Web Developer | Web Designer</h6>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">About Me</h5>
-            <hr />
-            <p class="card-text">
-              My Name is Michelle Meza. I am a passionate and self-driven Web
-              Developer, who commits myself every day to study and practice so
-              that I can sharpen my skills. I am currently enrolled in the
-              University of Wisconsin - Extended Coding Boot Camp. My
-              specialties include using browser-based technologies such as HTML,
-              CSS, JavaScript, jQuery, and Bootstrap. I am familiar with using
-              Git/GitHub platform to deploy websites and collaborate in a team
-              setting. Soon I will be working for a company who is willing to
-              invest in someone new to the coding world because they can see the
-              smart, motivated individual excited to build and learn something
-              incredible and contribute to the success of the company.
+        <div class="landing-img">
+          <img src="assets/images/background.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img id="me" src="assets/images/profile.jpg" />
+        </div>
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            My Name is Michelle Meza. I am a passionate and self-driven Web
+            Developer, who commits myself every day to study and practice so
+            that I can sharpen my skills. I am currently enrolled in the
+            University of Wisconsin - Extended Coding Boot Camp. My specialties
+            include using browser-based technologies such as HTML, CSS,
+            JavaScript, jQuery, and Bootstrap. I am familiar with using
+            Git/GitHub platform to deploy websites and collaborate in a team
+            setting. Soon I will be working for a company who is willing to
+            invest in someone new to the coding world because they can see the
+            smart, motivated individual excited to build and learn something
+            incredible and contribute to the success of the company.
+          </p>
+
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h1>
+            Services
+          </h1>
+          <h6>What I can do for you</h6>
+        </div>
+        <div class="my-skills">
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-layer-group"> </i>
+            </div>
+            <h1>Web Design</h1>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatu
+            </p>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-code"> </i>
+            </div>
+            <h1>Web Development</h1>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatu
+            </p>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <i class="fas fa-chart-bar"> </i>
+            </div>
+            <h1>Product Strategy</h1>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatu
             </p>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>View Some of My Recent Work</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right">
+            <img src="assets/images/SetFlow.png" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <h1>SetFlow: Setlist Builder</h1>
+            <p>
+              Performers can create setlist and gigs using this site. Add songs
+              to setlist using the api called Lyrics APIseeds. Auth0 for users
+              to login. Uses MongoDB. Hosted on Heroku.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right">
+            <img src="assets/images/SetFlow.png" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <h1>SetFlow: Setlist Builder</h1>
+            <p>
+              Performers can create setlist and gigs using this site. Add songs
+              to setlist using the api called Lyrics APIseeds. Auth0 for users
+              to login. Uses MongoDB. Hosted on Heroku.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right">
+            <img src="assets/images/SetFlow.png" alt="" />
+          </div>
+          <div class="portfolio-description">
+            <h6>Web Development</h6>
+            <h1>SetFlow: Setlist Builder</h1>
+            <p>
+              Performers can create setlist and gigs using this site. Add songs
+              to setlist using the api called Lyrics APIseeds. Auth0 for users
+              to login. Uses MongoDB. Hosted on Heroku.
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Expereince</h1>
+        </div>
+        <div class="timeline">
+          <ul>
+            <li class="date" data-date="2015 - Present">
+              <h1>MGIC</h1>
+              <p>
+                or sit amet, consectetur, adipisci velit, sed quia non numquam
+                eius modi tempora incidunt ut labore et dolore magnam aliquam
+                quaerat voluptatem.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Education</h1>
+        </div>
+        <div class="timeline">
+          <ul>
+            <li class="date" data-date="2015 - Present">
+              <h1>MATC</h1>
+              <p>
+                or sit amet, consectetur, adipisci velit, sed quia non numquam
+                eius modi tempora incidunt ut labore et dolore magnam aliquam
+                quaerat voluptatem.
+              </p>
+            </li>
+            <li class="date" data-date="2015 - Present">
+              <h1>University of Wisconsin Extended Campus Coding Boot Camp</h1>
+              <p>
+                or sit amet, consectetur, adipisci velit, sed quia non numquam
+                eius modi tempora incidunt ut labore et dolore magnam aliquam
+                quaerat voluptatem.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Let's Work Together</h6>
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name..."
+            required
+          />
+          <label for="name">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email..."
+            required
+          />
+          <label for="services">Services</label>
+          <select name="service" id="service">
+            <option value="">Web Design</option>
+            <option value="">Web Development</option>
+            <option value="">Web Design/Development</option>
+            <option value="">Other</option>
+          </select>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" cols="10" rows="10"></textarea>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>&copy; 2020 Michelle Meza</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/assets/javascript/app.js"></script>
   </body>
 </html>
